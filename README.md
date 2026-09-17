@@ -2,7 +2,7 @@
 
 [![Website](https://img.shields.io/badge/website-index--0.in-1cd6ac)](https://www.index-0.in)
 [![Latest release](https://img.shields.io/github/v/release/MadhumithaKolkar/index0-releases?label=latest%20release&color=1cd6ac)](https://github.com/MadhumithaKolkar/index0-releases/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/MadhumithaKolkar/index0-releases/total?label=downloads&color=1cd6ac)](https://github.com/MadhumithaKolkar/index0-releases/releases)
+[![Downloads](https://img.shields.io/github/downloads/MadhumithaKolkar/index0-releases/total?label=downloads&color=f97316)](https://github.com/MadhumithaKolkar/index0-releases/releases)
 [![Platforms](https://img.shields.io/badge/platform-macOS%20|%20Windows%20|%20Linux-1cd6ac)](#download)
 [![License](https://img.shields.io/badge/license-free%20to%20use%2C%20source%20closed-1cd6ac)](#license)
 
