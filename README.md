@@ -1,115 +1,131 @@
 # INDEX 0
 
 [![Website](https://img.shields.io/badge/website-index--0.in-1cd6ac)](https://www.index-0.in)
-[![Latest release](https://img.shields.io/github/v/release/MadhumithaKolkar/index0-releases?label=latest&color=1cd6ac)](https://github.com/MadhumithaKolkar/index0-releases/releases/latest)
+[![Latest release](https://img.shields.io/github/v/release/MadhumithaKolkar/index0-releases?label=latest%20release&color=1cd6ac)](https://github.com/MadhumithaKolkar/index0-releases/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/MadhumithaKolkar/index0-releases/total?label=downloads&color=1cd6ac)](https://github.com/MadhumithaKolkar/index0-releases/releases)
 [![Platforms](https://img.shields.io/badge/platform-macOS%20|%20Windows%20|%20Linux-1cd6ac)](#download)
 [![License](https://img.shields.io/badge/license-free%20to%20use%2C%20source%20closed-1cd6ac)](#license)
 
-**A free, local-first learning platform for engineers - DSA, ML/AI, electronics, and system design, all coached by the same AI, entirely on your own machine.**
+**A free, local-first learning platform for engineers, covering DSA, ML/AI, electronics, and system design, with an integrated AI coach.**
 
-No cloud, no subscription, no account. INDEX 0 runs a local Ollama + Gemma model on your computer, so nothing you write is ever sent anywhere. This repo hosts the built app for macOS, Windows, and Linux, and powers the in-app "check for updates" feature.
+INDEX 0 runs entirely on the user's own machine against a local Ollama + Gemma model. There is no cloud dependency, account, or subscription, and no data leaves the device. This repository hosts the built application for macOS, Windows, and Linux, and backs the in-app update checker.
 
-**[Download it at www.index-0.in →](https://www.index-0.in)**
+**[Download at www.index-0.in →](https://www.index-0.in)**
 
 ---
 
-## What's actually in it
+## Overview
 
-INDEX 0 isn't just a DSA tool - it's one coach across four subjects, so you build one way of thinking instead of stitching together a hundred scattered tutorials.
-
-| Section | What it is |
+| Metric | Value |
 |---|---|
-| **DSA Coach** | 422 problems, each walked through with a strict 6-stage Socratic loop: understand → intuition → brute force → tradeoffs → optimize → final. Zero won't show you working code before the final stage - no matter how directly you ask. |
-| **ML/AI Roadmap** | 34 structured lectures, not a scattered YouTube playlist. |
-| **Electronics Roadmap** | 74 lessons, from Ohm's law through PCB design, logic gates, and a full connected capstone project. |
-| **System Design Roadmap** | 102 lessons, from fundamentals through real-world case studies. |
-| **Mock Interviews** | A guided solo interview with Zero - pick a specialization and level, get graded, get a report on exactly what to fix. |
-| **Games** | Sequence Recall, Quick Math Sprint, Pattern Predictor, Lights Out, ML Hangman, and Big-O Blitz - for when you need an actual break, not more studying. |
+| DSA problems | 422 |
+| ML/AI lectures | 34 |
+| Electronics lessons | 74 |
+| System design lessons | 102 |
+| Mock interview modes | Guided, specialization- and level-based |
+| Supported platforms | macOS (Apple Silicon, Intel), Windows, Linux (x86_64, ARM64) |
+| Deployment | Fully local, no cloud dependency |
+| License | Free to use, source closed |
 
-### Meet Zero
+## Modules
 
-Zero is the coach behind all of it, and it's built to be strict on purpose. Most tools optimize for the moment you get unstuck; Zero optimizes for the moment six months from now when you see a similar problem and actually recognize it. That means:
+| Module | Description |
+|---|---|
+| **DSA Coach** | 422 problems, each progressing through six structured stages: problem framing, intuition, initial implementation, complexity analysis, optimization, and final review. Solutions are withheld until the final stage to reinforce independent problem-solving. |
+| **ML/AI Roadmap** | 34 structured lectures covering core machine learning and AI concepts. |
+| **Electronics Roadmap** | 74 lessons spanning fundamentals (Ohm's law, digital logic) through PCB design and a capstone connected-hardware project. |
+| **System Design Roadmap** | 102 lessons covering fundamentals through real-world case studies. |
+| **Mock Interviews** | A guided solo interview mode with specialization and difficulty selection, structured feedback, and a report on specific areas to improve. |
+| **Games** | Six supplementary games (Sequence Recall, Quick Math Sprint, Pattern Predictor, Lights Out, ML Hangman, Big-O Blitz) reinforcing core concepts. |
 
-- No working code before the final stage - guiding questions instead of instructions, however directly you ask.
-- Every judgment grounded in the specific problem's real constraints, not a model's fuzzy memory of "what LeetCode 42 is."
-- Progressively stronger hints as you get stuck, never just handing you the pattern's name outright.
+### AI coach
 
-### Fully local, by design
+The in-app coach ("Zero") is designed to reinforce understanding rather than provide direct answers:
 
-The whole app runs against a local [Ollama](https://ollama.com) install and a [Gemma](https://ai.google.dev/gemma) model on your own machine. There's no server, no account, no telemetry pipeline. The one-time setup wizard walks you through installing anything you're missing (Ollama, Python, and whichever language toolchains you want for DSA).
+- No working solution code is shown before the final review stage, regardless of how directly it is requested.
+- Feedback is grounded in the specific problem's stated constraints rather than the model's general training data.
+- Hints escalate progressively as the user gets stuck, rather than revealing the underlying pattern outright.
+
+### Local execution
+
+The application runs against a local [Ollama](https://ollama.com) installation and a [Gemma](https://ai.google.dev/gemma) model on the user's own machine. There is no backend server, account system, or telemetry collection. A one-time setup wizard installs any missing dependencies (Ollama, Python, and the language toolchains required for DSA problem execution).
 
 ---
 
 ## Download
 
-Grab the latest build from the [Releases page](../../releases/latest), or use the platform-specific links on **[www.index-0.in](https://www.index-0.in)**, which always point at the current release automatically.
+The latest build is available from the [Releases page](../../releases/latest), or via the platform-specific links on **[www.index-0.in](https://www.index-0.in)**, which resolve to the current release automatically.
 
-| Platform | File | Notes |
+| Platform | File | Requirements |
 |---|---|---|
-| macOS (Apple Silicon) | `INDEX0-arm64.dmg` | M1 and newer |
-| macOS (Intel) | `INDEX0-x64.dmg` | 2019 and newer |
-| Windows | `INDEX0-Setup.exe` | Windows 10 (64-bit) and newer |
-| Linux (x86_64) | `INDEX0-x86_64.AppImage` | any modern 64-bit distro |
-| Linux (ARM64) | `INDEX0-arm64.AppImage` | any modern ARM64 distro |
+| macOS (Apple Silicon) | `INDEX0-arm64.dmg` | M1 or newer |
+| macOS (Intel) | `INDEX0-x64.dmg` | 2019 or newer |
+| Windows | `INDEX0-Setup.exe` | Windows 10 (64-bit) or newer |
+| Linux (x86_64) | `INDEX0-x86_64.AppImage` | Any modern 64-bit distribution |
+| Linux (ARM64) | `INDEX0-arm64.AppImage` | Any modern ARM64 distribution |
 
-**These builds aren't code-signed** - a free, solo-built project, that's the honest tradeoff. Your OS will show a security warning on first launch (Gatekeeper on macOS, SmartScreen on Windows). The [download page](https://www.index-0.in#download) has the one-time steps to get past that safely.
+These builds are not code-signed. As a solo-built, free project, this is an accepted tradeoff. The OS will show a security warning on first launch (Gatekeeper on macOS, SmartScreen on Windows); the [download page](https://www.index-0.in#download) documents the one-time steps required to proceed.
 
-Once installed, the app checks for updates automatically on launch and periodically while running, and prompts you in-app when a new version is ready - no need to come back here to redownload manually.
+Installed copies check for updates automatically on launch and periodically while running, and prompt in-app when a new version is available.
 
 ---
 
 ## Version history
 
-### v1.2.0 - DSA screen fixes, from real user feedback
+### v1.2.0 — DSA screen fixes, from user feedback
 
 **Added**
-- Failed test cases now show the input that produced the failure.
-- Moved the editor zoom control next to the language picker, and added a Reset button to start a problem over with fresh starter code.
+- Failed test cases now display the input that produced the failure.
+- Editor zoom control relocated next to the language picker; added a Reset button to restore a problem's starter code.
 
 **Fixed**
 - Python (and other tools) sometimes not being detected on Linux even when installed.
-- Your language choice not sticking when solving DSA problems.
-- In-progress code sometimes being lost when navigating back.
-- Zero's replies occasionally getting cut off.
-- Zero still saying "Captain" after you've set your own name.
+- Language selection not persisting while solving DSA problems.
+- In-progress code occasionally lost when navigating back.
+- Coach replies occasionally truncated.
+- Coach using a default name after the user had set a custom display name.
 - Setup downloads failing outright on a dropped connection instead of retrying.
-- In-app updates not actually working on Linux.
+- In-app updates not functioning on Linux.
 
-### v1.1.0 - Linux support, an Intel Mac build, and a few fixes
+### v1.1.0 — Linux support, Intel Mac build
 
 **Added**
 - Linux support (AppImage, x86_64 and ARM64).
-- An Intel Mac build alongside the existing Apple Silicon one.
-- A font-size control for the code editor, separate from the app-wide one.
+- Intel Mac build alongside the existing Apple Silicon build.
+- Independent font-size control for the code editor.
 
 **Fixed**
-- "Zero's notes about you" sometimes cutting a note off mid-word.
-- Softened the app's main text color so it's easier on the eyes.
+- Memory notes occasionally truncated mid-word.
+- Reduced primary text contrast for improved readability.
 
-### v1.0.0 - Initial public launch
+### v1.0.0 — Initial public release
 
-First public release: macOS (Apple Silicon) and Windows builds, with Linux support and an Intel Mac build following shortly after in v1.1.0.
+First public release: macOS (Apple Silicon) and Windows builds. Linux support and an Intel Mac build followed in v1.1.0.
 
 ---
 
 ## License
 
-INDEX 0 is **free to use, but not open source** - the source code and all content (curriculum, coaching prompts, branding) remain fully owned by the author. In short, you may download and use the app for free, for your own learning, but you may not:
+INDEX 0 is **free to use but not open source**. The source code and all content (curriculum, coaching prompts, branding) remain the property of the author.
 
-- Sell, sublicense, or charge money for INDEX 0 or any derivative of it.
-- Use it as part of a paid product or service.
-- Redistribute the source code (it isn't published here - this repo only hosts built binaries).
+**Permitted:**
+- Downloading and using the application for personal learning, at no cost.
 
-The full license text is available in-app and on the [website](https://www.index-0.in).
+**Not permitted:**
+- Selling, sublicensing, or charging for INDEX 0 or any derivative of it.
+- Incorporating it into a paid product or service.
+- Redistributing the source code (not published in this repository, which hosts built binaries only).
+
+Full license text is available in-app and on the [website](https://www.index-0.in).
 
 ---
 
 ## Feedback & support
 
-Source code lives in a separate private repository. This repo exists solely to distribute builds and back the in-app "check for updates" feature - it isn't meant to receive issues or PRs.
+Source code is maintained in a separate private repository. This repository exists solely to distribute builds and back the in-app update checker; it does not accept issues or pull requests.
 
-- **Bugs, feedback, or feature requests:** [creator@index-0.in](mailto:creator@index-0.in), or the feedback form on [the website](https://www.index-0.in).
-- **1:1 mentoring:** [book a session](https://topmate.io/madhumitha_kolkar/).
-
-If INDEX 0 has been useful, the download page has a way to say thanks - entirely optional, the app itself will always be free.
+| Channel | Purpose |
+|---|---|
+| [creator@index-0.in](mailto:creator@index-0.in) | Bug reports, feedback, feature requests |
+| [Website feedback form](https://www.index-0.in) | Bug reports, feedback, feature requests |
+| [Topmate](https://topmate.io/madhumitha_kolkar/) | 1:1 mentoring sessions |
