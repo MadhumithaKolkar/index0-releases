@@ -3,7 +3,7 @@
 [![Website](https://img.shields.io/badge/website-index--0.in-1cd6ac)](https://www.index-0.in)
 [![Latest release](https://img.shields.io/github/v/release/MadhumithaKolkar/index0-releases?label=latest%20release&color=1cd6ac)](https://github.com/MadhumithaKolkar/index0-releases/releases/latest)
 [![Downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.index-0.in%2Fapi%2Fdownloads-badge)](#downloads)
-[![Platforms](https://img.shields.io/badge/platform-macOS%20|%20Windows%20|%20Linux-1cd6ac)](#download)
+[![Platforms](https://img.shields.io/badge/platform-macOS%20|%20Windows%20|%20Linux-1cd6ac)](#downloads)
 [![License](https://img.shields.io/badge/license-free%20to%20use%2C%20source%20closed-1cd6ac)](#license)
 
 **A free, local-first learning platform for engineers, covering DSA, ML/AI, electronics, system design, and cybersecurity, with an integrated AI coach.**
@@ -59,7 +59,7 @@ The application runs against a local [Ollama](https://ollama.com) installation a
 
 ---
 
-## Download
+## Downloads
 
 The latest build is available from the [Releases page](../../releases/latest), or via the platform-specific links on **[www.index-0.in](https://www.index-0.in)**, which resolve to the current release automatically.
 
@@ -71,7 +71,7 @@ The latest build is available from the [Releases page](../../releases/latest), o
 | Linux (x86_64) | `INDEX0-x86_64.AppImage` | Any modern 64-bit distribution |
 | Linux (ARM64) | `INDEX0-arm64.AppImage` | Any modern ARM64 distribution |
 
-macOS builds are signed and notarized by Apple as of v1.9.0 onward, so Gatekeeper opens them without a warning. Windows and Linux builds are not code-signed; as a solo-built, free project, this is an accepted tradeoff there. Windows will show a SmartScreen warning on first launch — the [download page](https://www.index-0.in#download) documents the one-time steps required to proceed.
+macOS builds are signed and notarized by Apple as of v1.9.0 onward, so Gatekeeper opens them without a warning. Windows and Linux builds are not code-signed; as a solo-built, free project, this is an accepted tradeoff there. Windows will show a SmartScreen warning on first launch - the [download page](https://www.index-0.in#download) documents the one-time steps required to proceed.
 
 Installed copies check for updates automatically on launch and periodically while running, and prompt in-app when a new version is available.
 
@@ -79,7 +79,7 @@ Installed copies check for updates automatically on launch and periodically whil
 
 ## Version history
 
-### v1.9.2 — Math in course chats, formatted interview answers, and solved-problem resets
+### v1.9.2 - Math in course chats, formatted interview answers, and solved-problem resets
 
 **Added**
 - Formulas in Zero's course chats now render as proper math.
@@ -91,7 +91,7 @@ Installed copies check for updates automatically on launch and periodically whil
 - Zero keeps track of the problem when you switch models.
 - Fixed a startup error that affected some installs.
 
-### v1.9.1 — C# support, Vim mode, new AI/ML lessons, and grading fixes
+### v1.9.1 - C# support, Vim mode, new AI/ML lessons, and grading fixes
 
 **Added**
 - C# added as a supported language for DSA problems.
@@ -105,7 +105,7 @@ Installed copies check for updates automatically on launch and periodically whil
 - Fixed Zero's incomplete responses.
 - Fixed some UI issues and installation issues.
 
-### v1.8.0 — Quiz mode, achievement sharing, and update fixes
+### v1.8.0 - Quiz mode, achievement sharing, and update fixes
 
 **Added**
 - Quiz mode: pre-authored multiple-choice and AI-graded free-response questions after each lesson.
@@ -118,13 +118,13 @@ Installed copies check for updates automatically on launch and periodically whil
 - Fixed auto-update failing on some Windows installs.
 - Fixed thin test coverage on the 53 new DSA problems from the last release.
 
-### v1.7.0 — 53 new DSA problems, plus some polish from Zero
+### v1.7.0 - 53 new DSA problems, plus some polish from Zero
 
 **Added**
 - 53 new DSA problems added, spanning nearly every major pattern.
 - Zero now helps you stay hydrated and sleep on time.
 
-### v1.6.1 — Manual toolchain paths, layout fixes
+### v1.6.1 - Manual toolchain paths, layout fixes
 
 **Added**
 - Added manual path setup for Java, C++, and Kotlin, for when auto-detect can't find them.
@@ -136,7 +136,7 @@ Installed copies check for updates automatically on launch and periodically whil
 - Fixed a saved custom language path not being recognized as installed.
 - Fixed manual toolchain paths failing to validate on Windows.
 
-### v1.6.0 — The Big O plotter, and bring your own local model
+### v1.6.0 - The Big O plotter, and bring your own local model
 
 **Added**
 - The Big O plotter: see why your solution has the complexity it does, with an animated growth curve.
@@ -156,7 +156,7 @@ Installed copies check for updates automatically on launch and periodically whil
 - Fixed your saved theme and font sometimes not showing correctly right when a page loads.
 - Fixed an empty message sometimes appearing after sharing your code with Zero.
 
-### v1.5.2 — See your code's output, cancel setup downloads
+### v1.5.2 - See your code's output, cancel setup downloads
 
 **Added**
 - See your code's print/stdout output after running it, broken down per test case. Run with Ctrl/Cmd+'.
@@ -170,12 +170,12 @@ Installed copies check for updates automatically on launch and periodically whil
 - Fixed a saved short display name getting overwritten by browser autofill.
 - Fixed language install status on your profile not always updating after a successful install.
 
-### v1.5.1 — See which lectures you've completed at a glance
+### v1.5.1 - See which lectures you've completed at a glance
 
 **Added**
 - Completed lectures now show an orange ring around their number in the section list, so it's easy to tell what you've already gone through.
 
-### v1.5.0 — Light and grey themes, and smarter notes from Zero
+### v1.5.0 - Light and grey themes, and smarter notes from Zero
 
 **Added**
 - Light and grey theme options, cycled from the header next to the update badge.
@@ -187,7 +187,7 @@ Installed copies check for updates automatically on launch and periodically whil
 - Fixed picking a local model from your profile sometimes still showing "No model set up" afterward, even though it was working.
 - Fixed Python (and other tools) sometimes not being detected right after installing them on Windows.
 
-### v1.4.2 — Mac updates no longer get stuck
+### v1.4.2 - Mac updates no longer get stuck
 
 **Added**
 - A clear message with recovery steps if an update ever fails to install.
@@ -195,7 +195,7 @@ Installed copies check for updates automatically on launch and periodically whil
 **Fixed**
 - Fixed the Mac app's updater crashing partway through installing an update.
 
-### v1.4.0 — JavaScript joins the DSA language lineup
+### v1.4.0 - JavaScript joins the DSA language lineup
 
 **Added**
 - JavaScript as a DSA language, no install needed - works in practice problems, mock interviews, and Ask Zero.
@@ -203,7 +203,7 @@ Installed copies check for updates automatically on launch and periodically whil
 **Fixed**
 - Fixed a crash on 13 problems where a solution returning nothing would error out instead of just failing the test.
 
-### v1.3.0 — Bring your own AI, or skip it for now
+### v1.3.0 - Bring your own AI, or skip it for now
 
 **Added**
 - The test-results panel in the DSA editor can now be resized, trading space with the code editor.
@@ -223,7 +223,7 @@ Installed copies check for updates automatically on launch and periodically whil
 - Fixed a never-installed default model incorrectly showing as "current".
 - Fixed Ask Zero's code answers not matching the problem's real function signature.
 
-### v1.2.0 — DSA screen fixes, from user feedback
+### v1.2.0 - DSA screen fixes, from user feedback
 
 **Added**
 - Failed test cases now display the input that produced the failure.
@@ -238,7 +238,7 @@ Installed copies check for updates automatically on launch and periodically whil
 - Setup downloads failing outright on a dropped connection instead of retrying.
 - In-app updates not functioning on Linux.
 
-### v1.1.0 — Linux support, Intel Mac build
+### v1.1.0 - Linux support, Intel Mac build
 
 **Added**
 - Linux support (AppImage, x86_64 and ARM64).
@@ -249,7 +249,7 @@ Installed copies check for updates automatically on launch and periodically whil
 - Memory notes occasionally truncated mid-word.
 - Reduced primary text contrast for improved readability.
 
-### v1.0.0 — Initial public release
+### v1.0.0 - Initial public release
 
 First public release: macOS (Apple Silicon) and Windows builds. Linux support and an Intel Mac build followed in v1.1.0.
 
